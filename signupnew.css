@@ -1,0 +1,77 @@
+* {box-sizing: border-box}
+
+  input[type=text], input[type= Country ] {
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0 10px 1px;
+  display: inline-block;
+  border: none;
+  background-image: linear-gradient(2deg, #e5f4f7 33%, #9ebcc3 100%);
+  box-shadow: 0 0 10000px rgb(255 255 255 / 60%);
+}
+h1 {
+  margin-left: 750px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 4px;
+}
+.subtitle {
+  margin-left: 800px;
+}
+.foot {
+  margin-left: 710px;
+}
+
+input[type=text]:focus, input[type=Password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #04AA6D;
+  color: rgb(3, 2, 2);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:0.5;
+  background-color: rgb(241, 221, 91);
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 20%;
+  margin-left: 360px;
+  font-size: 30px;
+}
+
+.container {
+  padding: 15px;
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
